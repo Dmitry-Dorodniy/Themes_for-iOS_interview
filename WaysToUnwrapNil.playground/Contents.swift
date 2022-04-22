@@ -1,4 +1,4 @@
-
+import Foundation
 //var text: String?
 //nil
 var text: String? = "some text"
