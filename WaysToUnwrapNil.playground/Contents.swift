@@ -1,4 +1,3 @@
-import Foundation
 
 //var text: String?
 //nil
