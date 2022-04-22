@@ -6,10 +6,10 @@ var text: String? = "some text"
 //some text
 
 //1. Принудительно (forced) - не безопасно
-//var unwrapped1: String = text!
+var unwrapped1: String = text!
 
 //2. Неявно (implicitly) - не безопасно
-//var unwrapped2: String! = text
+var unwrapped2: String! = text
 
 //3. Опциональное привязывание (binding) - безопасно
 if let unwrapped3 = text {
