@@ -12,8 +12,8 @@ var unwrapped1: String = text!
 var unwrapped2: String! = text
 
 //3. Опциональное привязывание (binding) - безопасно
-if let unwrapped3 = text {
-    print("optional succesfully unwrapped: \(unwrapped3)")
+if let text = text {
+    print("optional succesfully unwrapped: \(text)")
 } else {
     print("nil here")
 }
